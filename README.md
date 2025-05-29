@@ -23,15 +23,25 @@ A Python-based web scraper that collects job listings from LinkedIn using Seleni
 ## 📁 Project Structure
 
 linkedin-job-scraper/
+
 ├── linkedin_scraper/
+
 │ ├── scraper.py # Core scraping logic
+
 │ ├── config.py # Configurable search terms
+
 ├── data/
+
 │ └── linkedin_jobs.csv # Output file
+
 ├── run.py # Entry point
+
 ├── .env # Contains LinkedIn credentials (not tracked)
+
 ├── .gitignore # Excludes sensitive files
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # You’re here!
 
 ## ⚙️ Setup & Usage
@@ -81,11 +91,3 @@ This project is for educational purposes only. Scraping LinkedIn may violate the
 ## 📊 Visualizing Data
 
 You can visualize the scraped data using Power BI or any other data visualization tool. Import the `data/linkedin_jobs.csv` file to create charts, graphs, and dashboards.
-
-## 📄 License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-## ⚠️ Disclaimer
-
-This tool is for educational purposes only. Scraping LinkedIn may violate their Terms of Service. Use responsibly and at your own risk.
