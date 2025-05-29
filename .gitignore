@@ -1,0 +1,6 @@
+# Ignore these during commits
+.env
+__pycache__/
+*.pyc
+data/*.csv
+chromedriver.exe
